@@ -1,0 +1,12 @@
+Cesar Nieto
+Ingeniero de QA de software especializado en automatización de pruebas
+
+PROVISIONAL · solo contiene datos confirmados; falta el historial profesional.
+
+Herramientas: Selenium, Playwright, Cucumber, Gherkin, pipelines de CI/CD
+Idiomas de trabajo: español e inglés
+Correo: cesar.nieto@outlook.com
+GitHub: https://github.com/CesarNPadilla
+LinkedIn: https://www.linkedin.com/in/cesarnpadilla
+
+Nivel profesional, ubicación, experiencia, formación y proyectos: pendientes de confirmación.
