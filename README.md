@@ -1,6 +1,6 @@
 # Cesar Nieto — Personal Portfolio
 
-A bilingual personal website presenting Cesar Nieto's software QA and test automation profile, skills, experience, projects, and contact information. This repository contains the website source and downloadable résumé drafts.
+A bilingual personal website presenting Cesar Nieto's software QA and test automation profile, skills, experience, projects, and contact information. This repository contains the website source and downloadable résumés.
 
 **Website address:** [cesarnieto.me](https://cesarnieto.me/) · [Spanish version](https://cesarnieto.me/es/)
 
@@ -8,15 +8,15 @@ The pages currently use this domain in their metadata. Hosting and domain config
 
 ## For recruiters and reviewers
 
-- **Professional focus:** software quality assurance and test automation with Selenium, Playwright, Cucumber, Gherkin, and CI/CD pipelines.
+- **Professional focus:** test automation management, Selenium and Playwright frameworks, Saviynt IAM testing, and CI/CD delivery.
 - **Working languages:** English and Spanish.
 - **Contact:** [cesar.nieto@outlook.com](mailto:cesar.nieto@outlook.com).
 - **Profiles:** [LinkedIn](https://www.linkedin.com/in/cesarnpadilla) and [GitHub](https://github.com/CesarNPadilla).
-- **Résumé drafts:** [English](downloads/cesar-nieto-en.txt) and [Spanish](downloads/cesar-nieto-es.txt).
+- **Résumés:** [English](downloads/cesar-nieto-en.txt) and [Spanish](downloads/cesar-nieto-es.txt).
 
 The website is a portfolio project demonstrating responsive HTML/CSS, bilingual content, accessibility features, and search/social metadata. The QA tools listed above describe the professional profile; this repository does not contain Selenium or Playwright test suites or a CI/CD workflow.
 
-**Content status:** the résumés are explicitly labeled as drafts. Seniority, location/time zone, programming languages, named CI/CD tools, additional QA practices, and employment details still contain `[CONFIRM]` placeholders. Project write-ups are pending. These fields should be completed with verified information before using the site as a complete application portfolio.
+**Content status:** profile, career history, skills, and résumé downloads were updated from Cesar's supplied résumé. The projects section covers FamilySplitter, two local Saviynt frameworks, and this portfolio. FamilySplitter and the portfolio have public GitHub links. The framework remotes could not be accessed anonymously, so their links remain explicit placeholders. Estimates remain labeled as estimates. AI-assisted automation and the estimated 70% reduction in design and coding effort refer specifically to the Saviynt Playwright framework. Pleasanton is the work location listed in the résumé; no availability, personal location, time-zone, or work-authorization claim is inferred.
 
 ## Implementation
 
@@ -42,8 +42,8 @@ The design is adapted from **Miniport by HTML5 UP**. Original template assets re
 | `es/index.html` | Spanish page, content, links, and metadata |
 | `assets/css/site.css` | Active shared styles, themes, and responsive behavior |
 | `images/portrait.avif`, `.webp`, `.jpg` | Portrait variants used by both pages |
-| `downloads/cesar-nieto-en.txt` | English résumé draft |
-| `downloads/cesar-nieto-es.txt` | Spanish résumé draft |
+| `downloads/cesar-nieto-en.txt` | English résumé |
+| `downloads/cesar-nieto-es.txt` | Spanish résumé |
 | `.nojekyll` | Disables Jekyll processing when served through GitHub Pages |
 | `SITE_UPDATE.md` | Previous update notes and verification record; includes historical source snapshots |
 | `LICENSE.txt` | Template license terms |
@@ -110,7 +110,7 @@ The repository can be served by a static host without a build step. For a branch
 4. If using `cesarnieto.me`, configure the custom domain, required DNS records, and HTTPS in the hosting settings. Ensure the domain matches the URLs in both HTML pages.
 5. Verify `/`, `/es/`, language links, contact links, assets, and résumé downloads on the deployed site.
 
-There is no deployment workflow or `CNAME` file checked into this repository at present; do not assume hosting is configured from the source alone. If deploying under a repository subpath rather than a custom domain, adjust absolute metadata URLs to include that subpath.
+GitHub Pages publishes from `main` at the repository root. The checked-in `CNAME` contains the custom domain; DNS is managed through Cloudflare. If deploying under a repository subpath rather than a custom domain, adjust absolute metadata URLs to include that subpath.
 
 ## Attribution and license
 

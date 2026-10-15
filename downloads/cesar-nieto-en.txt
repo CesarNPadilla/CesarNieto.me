@@ -1,12 +1,107 @@
-Cesar Nieto
-Software QA Engineer specializing in test automation
+CESAR NIETO
 
-DRAFT · confirmed profile only; career details pending.
+SOFTWARE TEST AUTOMATION MANAGER
 
-Tools: Selenium, Playwright, Cucumber, Gherkin, CI/CD pipelines
-Working languages: English and Spanish
-Email: cesar.nieto@outlook.com
-GitHub: https://github.com/CesarNPadilla
-LinkedIn: https://www.linkedin.com/in/cesarnpadilla
+309-533-8336 | cesar.nieto@outlook.com | CesarNieto.me
 
-Seniority, location, work history, education and project details: pending confirmation.
+PROFESSIONAL SUMMARY
+
+Test automation manager building Selenium and Playwright frameworks with Java, JavaScript, and TypeScript. Leads 10 team members across the US, Mexico, and India, with Saviynt IAM delivery experience. Combines CI/CD ownership with AI-assisted test planning, generation, and maintenance for the Saviynt Playwright framework.
+
+TECHNICAL SKILLS
+
+Automation: Playwright, Selenium, Cucumber/Gherkin, BDD, TestNG; E2E, smoke, and regression testing; UFT/QTP, UiPath.
+
+Languages: Java, JavaScript, TypeScript.
+
+CI/CD and build: Azure Pipelines, GitLab CI/CD, Jenkins, Git, Maven.
+
+AI-assisted automation for the Saviynt Playwright framework: Codex, Claude; Test Planner, Test Generator, Test Healer agents.
+
+API and performance: Postman, REST Assured, Playwright API testing; LoadRunner, VuGen.
+
+Tools and platforms: Azure Test Plans, Allure, Jira, HP ALM, Bugzilla, Splunk, Salesforce; Saviynt identity and access management (IAM).
+
+PROFESSIONAL EXPERIENCE
+
+Accenture
+
+Pleasanton, CA | Jun 2009 - Present
+
+Manager | Jul 2026 - Present
+
+Previous title: Test Automation Engineer Associate Manager
+
+- Lead 10 team members across the US, Mexico, and India, coordinating automation delivery and testing standards across regions.
+
+- Build Selenium and Playwright automation frameworks using Java, JavaScript, and TypeScript; implement Playwright and Cucumber/Gherkin for Saviynt IAM projects.
+
+- Automate 60% of a Saviynt IAM inventory containing 300+ manual test cases; reported execution effort is 100+ person-hours for manual testing and 10-16 person-hours for automated testing.
+
+- Run smoke tests for every patch and regression tests for releases and migrations; expand automation after each release by implementing newly identified candidates.
+
+- Own CI/CD pipelines using Azure Pipelines, GitLab CI/CD, and Jenkins to support automation delivery.
+
+- Apply Test Planner, Test Generator, and Test Healer agents to the Saviynt Playwright framework using Codex and Claude, with an estimated 70% reduction in automation design and coding effort.
+
+- Deliver an estimated 70% reduction in regression execution effort across projects through automation.
+
+
+
+ADDITIONAL ACCENTURE EXPERIENCE
+
+- Completed four client assignments across healthcare, insurance, and banking, leading automation, performance, and manual testing projects.
+
+- Implemented keyword-driven, data-driven, hybrid, and BDD frameworks; developed E2E integration scripts across web and desktop applications using automation tools including Selenium, UFT/QTP, and UiPath.
+
+- Developed performance test scripts using LoadRunner/VuGen and automated tasks supporting test data creation and validation.
+
+- Estimated automation costs and benefits and developed reporting and dashboards using Jenkins, HP ALM, TestNG, Splunk, and Salesforce.
+
+EARLIER EXPERIENCE
+
+Test Lead | TCS - Tata Consultancy Services
+
+Monterrey, Mexico | Dec 2008 - Jun 2009
+
+- Led knowledge transfer and process improvement activities during the final phase of a functional testing project.
+
+- Analyzed requirements, designed test scripts and test matrices, and executed functional tests.
+
+- Tracked defects, supported users, and administered Bugzilla.
+
+Test Automation Engineer | Softtek
+
+Monterrey, Mexico | Jul 2007 - Nov 2008
+
+- Developed and integrated QTP automation scripts for a banking client and managed shared object repositories.
+
+- Prepared estimates, initiated project plans, and designed test plans and testing strategy.
+
+- Tracked defects to support testing and issue resolution.
+
+EDUCATION
+
+Bachelor of Science in Computer Engineering
+
+Technological Institute of San Luis Potosi | San Luis Potosi, Mexico
+
+Aug 2003 - Dec 2007
+
+CERTIFICATIONS AND TRAINING
+
+ICAgile Certified Professional | ICAgile | Mar 2019
+
+DevOps Academy | Accenture | Oct 2018
+
+Splunk Certified Power User 6.x | Splunk | Oct 2017
+
+Splunk Certified User 6.x | Splunk | Sep 2017
+
+ISTQB Certified Tester Foundation Level (CTFL) | ASTQB | Apr 2016
+
+QuickTest Professional 9.2 Software | HP | Nov 2009
+
+LANGUAGES
+
+English | Spanish
