@@ -4,3 +4,5 @@
 @media(prefers-color-scheme:dark){:root{--bg:#171e25;--panel:#202932;--card:#25313b;--text:#f0f4f8;--muted:#c2ceda;--accent:#8dd8f6;--border:#52616f;--focus:#ffc078}.button{background:#096e94;color:#fff}}
 @media(max-width:650px){.intro{grid-template-columns:1fr}.portrait{max-width:12rem;margin:auto}.container{width:calc(100% - 2rem)}.nav{position:relative}.language{margin-inline-start:0}.nav a{padding:.5rem}.intro .actions{align-items:stretch}.button{width:100%}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+.experience-list{display:grid;gap:1.5rem}.experience-list p{max-width:75ch}
