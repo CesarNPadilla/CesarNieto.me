@@ -16,7 +16,7 @@ The pages currently use this domain in their metadata. Hosting and domain config
 
 The website is a portfolio project demonstrating responsive HTML/CSS, bilingual content, accessibility features, and search/social metadata. The QA tools listed above describe the professional profile; this repository does not contain Selenium or Playwright test suites or a CI/CD workflow.
 
-**Content status:** profile, career history, skills, and résumé downloads were updated from Cesar's supplied résumé. The projects section covers FamilySplitter, two local Saviynt frameworks, and this portfolio. FamilySplitter and the portfolio have public GitHub links. The framework remotes could not be accessed anonymously, so their links remain explicit placeholders. Estimates remain labeled as estimates. AI-assisted automation and the estimated 70% reduction in design and coding effort refer specifically to the Saviynt Playwright framework. Pleasanton is the work location listed in the résumé; no availability, personal location, time-zone, or work-authorization claim is inferred.
+**Content status:** profile, career history, skills, and résumé downloads were updated from Cesar's supplied résumé. The projects section covers FamilySplitter, two local Saviynt frameworks, and this portfolio. All four featured projects link to verified public GitHub repositories. Estimates remain labeled as estimates. AI-assisted automation and the estimated 70% reduction in design and coding effort refer specifically to the Saviynt Playwright framework. Pleasanton is the work location listed in the résumé; no availability, personal location, time-zone, or work-authorization claim is inferred.
 
 ## Implementation
 
