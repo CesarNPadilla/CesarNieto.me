@@ -15,7 +15,7 @@ Herramientas y plataformas: Azure Test Plans, Allure, Jira, HP ALM, Bugzilla, Sp
 
 EXPERIENCIA PROFESIONAL
 Accenture | Pleasanton, California | Junio de 2009–actualidad
-Gerente | Julio de 2026–actualidad
+Gerente
 Puesto anterior: Test Automation Engineer Associate Manager
 - Coordino a 10 personas en Estados Unidos, México e India, organizando la entrega de automatización y los estándares de pruebas entre regiones.
 - Desarrollo frameworks con Selenium y Playwright en Java, JavaScript y TypeScript; implemento Playwright y Cucumber/Gherkin para proyectos de Saviynt IAM.

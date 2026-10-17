@@ -28,9 +28,10 @@ Accenture
 
 Pleasanton, CA | Jun 2009 - Present
 
-Manager | Jul 2026 - Present
+Manager
 
 Previous title: Test Automation Engineer Associate Manager
+
 
 - Lead 10 team members across the US, Mexico, and India, coordinating automation delivery and testing standards across regions.
 
