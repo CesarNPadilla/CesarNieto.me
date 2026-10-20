@@ -16,7 +16,7 @@ The pages currently use this domain in their metadata. Hosting and domain config
 
 The website is a portfolio project demonstrating responsive HTML/CSS, bilingual content, accessibility features, and search/social metadata. The QA tools listed above describe the professional profile; this repository does not contain Selenium or Playwright test suites or a CI/CD workflow.
 
-**Content status:** profile, career history, skills, and résumé downloads were updated from Cesar's supplied résumé. The projects section covers FamilySplitter, two local Saviynt frameworks, and this portfolio. All four featured projects link to verified public GitHub repositories. Estimates remain labeled as estimates. AI-assisted automation and the estimated 70% reduction in design and coding effort refer specifically to the Saviynt Playwright framework. Pleasanton is the work location listed in the résumé; no availability, personal location, time-zone, or work-authorization claim is inferred.
+**Content status:** profile, career history, skills, and résumé downloads were updated from Cesar's supplied résumé. The projects section covers FamilySplitter, two local Saviynt frameworks, and this portfolio. Public projects link to GitHub. The proprietary Java/Selenium framework for Saviynt IAM is available by demo and private repository access request. Estimates remain labeled as estimates. AI-assisted automation and the estimated 70% reduction in design and coding effort refer specifically to the Saviynt Playwright framework. Pleasanton is the work location listed in the résumé; no availability, personal location, time-zone, or work-authorization claim is inferred.
 
 ## Implementation
 
@@ -42,7 +42,8 @@ The design is adapted from **Miniport by HTML5 UP**. Original template assets re
 | `es/index.html` | Spanish page, content, links, and metadata |
 | `assets/css/site.css` | Active shared styles, themes, and responsive behavior |
 | `images/portrait.avif`, `.webp`, `.jpg` | Portrait variants used by both pages |
-| `downloads/cesar-nieto-en.txt` | English résumé |
+| `downloads/cesar-nieto-en.txt` | English résumé source |
+| `downloads/cesar-nieto-en.pdf` | PDF résumé linked from both pages (English) |
 | `downloads/cesar-nieto-es.txt` | Spanish résumé |
 | `.nojekyll` | Disables Jekyll processing when served through GitHub Pages |
 | `SITE_UPDATE.md` | Previous update notes and verification record; includes historical source snapshots |
