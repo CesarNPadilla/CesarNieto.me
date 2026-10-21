@@ -1,0 +1,50 @@
+CESAR NIETO
+309-533-8336 | cesar.nieto@outlook.com | https://cesarnieto.me/
+
+PROFESSIONAL SUMMARY
+Test automation manager building Selenium and Playwright frameworks in Java, JavaScript, and TypeScript. Own CI/CD delivery and Saviynt IAM automation; lead 10 team members across the US, Mexico, and India.
+
+TECHNICAL SKILLS
+Test Automation: Playwright, Selenium, Cucumber/Gherkin, BDD, TestNG, UFT/QTP, UiPath; E2E, smoke, and regression testing
+Languages: Java, JavaScript, TypeScript
+API/Performance: Postman, REST Assured, Playwright API testing, LoadRunner, VuGen
+CI/CD & DevOps: Azure Pipelines, GitLab CI/CD, Jenkins, Git, Maven
+Tools & Management: Azure Test Plans, Allure, Jira, HP ALM, Bugzilla, Splunk, Salesforce; Saviynt IAM
+AI-Assisted Automation: Codex, Claude; Test Planner, Test Generator, and Test Healer agents for the Saviynt Playwright framework
+Working languages: English and Spanish.
+
+PROFESSIONAL EXPERIENCE
+Manager | Accenture | Pleasanton, CA | Jun 2009 - Present
+Previous title: Test Automation Engineer Associate Manager
+- Build Selenium and Playwright frameworks in Java, JavaScript, and TypeScript; implement Cucumber/Gherkin for Saviynt IAM testing.
+- Automate 60% of 300+ Saviynt IAM manual test cases; reported execution effort is 100+ person-hours manually versus 10-16 person-hours with automation.
+- Own Azure Pipelines, GitLab CI/CD, and Jenkins pipelines; run smoke tests for patches and regression tests for releases and migrations.
+- Apply Codex and Claude agents to the Saviynt Playwright framework, with an estimated 70% reduction in automation design and coding effort.
+- Lead 10 team members across the US, Mexico, and India; deliver an estimated 70% reduction in regression execution effort across projects.
+
+Earlier Accenture client assignments
+- Completed four client assignments across healthcare, insurance, and banking, leading automation, performance, and manual testing projects.
+- Implemented keyword-driven, data-driven, hybrid, and BDD frameworks with Selenium, UFT/QTP, and UiPath for web and desktop integration tests.
+- Developed LoadRunner/VuGen performance scripts and automated test data creation and validation; built reports with Jenkins, TestNG, Splunk, and Salesforce.
+
+Test Lead | TCS - Tata Consultancy Services | Monterrey, Mexico | Dec 2008 - Jun 2009
+- Led knowledge transfer and process improvements during the final phase of a functional testing project.
+- Analyzed requirements, designed test scripts and matrices, and executed functional tests.
+- Administered Bugzilla, tracked defects, and supported users through issue resolution.
+
+Test Automation Engineer | Softtek | Monterrey, Mexico | Jul 2007 - Nov 2008
+- Developed and integrated QTP automation scripts for a banking client and managed shared object repositories.
+- Prepared estimates and project plans; designed test plans and testing strategy.
+- Tracked defects to support test execution and issue resolution; [PLACEHOLDER: defects resolved before release].
+
+EDUCATION
+Bachelor of Science in Computer Engineering
+Technological Institute of San Luis Potosi | San Luis Potosi, Mexico | Aug 2003 - Dec 2007
+
+CERTIFICATIONS AND TRAINING
+ICAgile Certified Professional | ICAgile | Mar 2019
+DevOps Academy | Accenture | Oct 2018
+Splunk Certified Power User 6.x | Splunk | Oct 2017
+Splunk Certified User 6.x | Splunk | Sep 2017
+ISTQB Certified Tester Foundation Level (CTFL) | ASTQB | Apr 2016
+QuickTest Professional 9.2 Software | HP | Nov 2009

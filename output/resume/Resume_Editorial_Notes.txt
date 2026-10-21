@@ -1,0 +1,22 @@
+Resume editorial notes
+
+Five changes
+1. Put hands-on Selenium, Playwright, Java/JavaScript/TypeScript, and CI/CD work ahead of management detail for the Senior QA Automation Engineer / SDET target.
+2. Kept actual employment titles and dates; did not relabel the Accenture role as SDET or infer a promotion date.
+3. Consolidated current Accenture work into five bullets and retained reported versus estimated metrics.
+4. Used a single-column, two-page Letter layout with Arial, selectable text, embedded PDF fonts, and clickable contact links.
+5. Grouped skills and compressed earlier work; omitted projects because the TXT does not document them.
+
+Placeholder question
+- Softtek: How many defects did your testing identify that were resolved before release? If unavailable, remove the placeholder rather than estimate.
+
+Other facts to confirm
+- What current city/state should appear in the header? Pleasanton is listed only as a work location.
+- What LinkedIn URL should be included? It is absent from the TXT source.
+- Which cloud platforms have you used hands-on, and for what testing work? No cloud platform is stated in the source, so the Cloud group is omitted.
+
+Optional keywords to add only with supporting experience
+SQL; Docker; Kubernetes; Sonar/code coverage; test-driven development (TDD); accessibility testing; user acceptance testing (UAT).
+
+The optional posting is a Principal SDET role, not a Senior SDET role. It was used only to prioritize existing experience and identify possible keyword gaps, not to add facts.
+https://www.linkedin.com/jobs/view/4416952500/
