@@ -14,7 +14,7 @@ A bilingual portfolio presenting Cesar Nieto's software QA and test automation w
 - **Profiles:** [LinkedIn](https://www.linkedin.com/in/cesarnpadilla) and [GitHub](https://github.com/CesarNPadilla).
 - **Résumés:** [English PDF](downloads/cesar-nieto-en.pdf), [English text](downloads/cesar-nieto-en.txt), and [Spanish text](downloads/cesar-nieto-es.txt). Both website download buttons serve the English PDF.
 
-Featured work includes [FamilySplitter](https://github.com/CesarNPadilla/FamilySplitter), a [Playwright BDD framework](https://github.com/CesarNPadilla/automation-playwright-framework), a proprietary Saviynt IAM framework, and this portfolio. The proprietary Java/Selenium framework is available by [demo and private repository access request](mailto:cesar.nieto@outlook.com?subject=Saviynt%20IAM%20framework%20demo%20request).
+Featured work includes [FamilySplitter](https://github.com/CesarNPadilla/FamilySplitter), a [Playwright BDD framework](https://github.com/CesarNPadilla/automation-playwright-framework), a proprietary Saviynt IAM framework, and this portfolio. Implementation artifacts and test results for the proprietary Java/Selenium framework are confidential and accessible only within the company network. [Contact Cesar to discuss his approach](mailto:cesar.nieto@outlook.com?subject=Discuss%20the%20Saviynt%20IAM%20automation%20approach).
 
 ## Run locally
 
@@ -70,7 +70,7 @@ Other files under `assets/` and `images/` include retained template assets. Chec
 ## Update the website
 
 1. **Keep both languages current.** Update profile, employment dates, responsibilities, skills, projects, and contact details together in `index.html` and `es/index.html`. Translate metadata, image alternatives, and accessibility labels as well as visible text.
-2. **Keep claims precise.** Preserve the scope and estimate labels of reported outcomes. The estimated 70% reduction in design and coding effort applies to the Saviynt Playwright framework. Keep public project links and private demo availability accurate.
+2. **Keep claims precise.** Preserve the scope and estimate labels of reported outcomes. The estimated 70% reduction in design and coding effort applies to the Saviynt Playwright framework. Keep public project links accurate and preserve confidentiality restrictions for company-internal evidence.
 3. **Synchronize the résumés.** Update `downloads/cesar-nieto-en.txt`, `downloads/cesar-nieto-es.txt`, and `downloads/cesar-nieto-en.pdf` when career information changes. Save text files as UTF-8 and inspect the PDF after replacing it. Update both HTML pages and this README if filenames, formats, or download languages change.
 4. **Edit active styles.** Use `assets/css/site.css`; `:root` variables define the palette, and media queries handle dark mode, small screens, and reduced motion. The original `main.css` and Sass files do not control the pages.
 5. **Update image variants together.** Generate all three portrait formats from the same image, retain descriptive alternatives, and keep HTML and Open Graph dimensions accurate. Refresh `images/readme-preview.png` when the visible design or introduction changes.
