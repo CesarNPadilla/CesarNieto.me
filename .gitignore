@@ -1,3 +1,4 @@
 # Local visual verification artifacts
 /preview-*.png
 /tmp/
+/.agents/
