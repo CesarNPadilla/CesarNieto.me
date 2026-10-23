@@ -1,111 +1,418 @@
 <!doctype html>
 <!-- Adapted from Miniport by HTML5 UP. CC BY 3.0; see LICENSE.txt. -->
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="color-scheme" content="light dark">
-    <title>Cesar Nieto | Software QA Engineer & Test Automation Manager</title>
-  <meta name="description" content="Software QA engineer and test automation manager at Accenture. Selenium and Playwright frameworks, CI/CD, and Saviynt IAM testing. English and Spanish.">
-    <link rel="canonical" href="https://cesarnieto.me/">
-    <link rel="alternate" hreflang="en" href="https://cesarnieto.me/">
-    <link rel="alternate" hreflang="es" href="https://cesarnieto.me/es/">
-    <link rel="alternate" hreflang="x-default" href="https://cesarnieto.me/">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Cesar Nieto | Software QA Engineer & Test Automation Manager">
-    <meta property="og:description" content="Software QA engineer and test automation manager at Accenture. Selenium and Playwright frameworks, CI/CD, and Saviynt IAM testing. English and Spanish.">
-    <meta property="og:url" content="https://cesarnieto.me/">
-    <meta property="og:locale" content="en_US">
-    <meta property="og:locale:alternate" content="es_ES">
-    <meta property="og:image" content="https://cesarnieto.me/images/portrait.jpg">
-    <meta property="og:image:width" content="640">
-    <meta property="og:image:height" content="640">
-    <meta property="og:image:alt" content="Cesar Nieto">
-    <meta name="twitter:card" content="summary">
-    <link rel="stylesheet" href="./assets/css/site.css">
-    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Person", "name": "Cesar Nieto", "url": "https://cesarnieto.me/", "jobTitle": "Software QA Engineer and Test Automation Manager", "worksFor": {"@type": "Organization", "name": "Accenture"}, "sameAs": ["https://github.com/CesarNPadilla", "https://www.linkedin.com/in/cesarnpadilla"]}</script>
-</head>
-<body>
-  <a class="skip" href="#main">Skip to content</a>
-  <nav class="nav" aria-label="Main">
-    <div class="container">
-      <a href="#intro">Intro</a>
-      <a href="#work">What I work on</a>
-      <a href="#skills">Skills</a>
-      <a href="#projects">Projects</a>
-      <a href="#experience">Experience</a>
-      <a href="#contact">Contact</a>
-      <a class="language" href="./es/" lang="es" hreflang="es">Español</a>
-    </div>
-  </nav>
-  <main id="main" tabindex="-1">
-    <section id="intro" aria-labelledby="intro-title">
-      <div class="container intro">
-        <picture>
-          <source srcset="./images/portrait.avif" type="image/avif">
-          <source srcset="./images/portrait.webp" type="image/webp">
-          <img class="portrait" src="./images/portrait.jpg" alt="Portrait of Cesar Nieto" width="640" height="640" fetchpriority="high">
-        </picture>
-                <div>
-          <p class="eyebrow">Software QA Engineer & Test Automation Manager</p>
-          <h1 id="intro-title">Cesar Nieto</h1>
-          <p class="lead">I'm a software QA engineer and test automation manager at Accenture. I build Selenium and Playwright frameworks in Java, JavaScript, and TypeScript, and I own the CI/CD pipelines that exercise them. I'm based in Pleasanton, California, and I work in English and Spanish.</p>
-          <p class="meta">Accenture · Manager · Pleasanton, CA (Pacific time)</p>
-          <div class="actions">
-            <a class="button" href="mailto:cesar.nieto@outlook.com">Contact me</a>
-            <a href="./downloads/cesar-nieto-en.pdf" download aria-describedby="resume-note">Download résumé</a>
-          </div>
-          <p class="note" id="resume-note">Full résumé · PDF</p>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <title>
+      Cesar Nieto | Software QA Engineer &amp; Test Automation Manager
+    </title>
+    <meta
+      name="description"
+      content="Software QA engineer and test automation manager at Accenture. Selenium and Playwright frameworks, CI/CD, and Saviynt IAM testing. English and Spanish."
+    />
+    <link rel="canonical" href="https://cesarnieto.me/" />
+    <link rel="alternate" hreflang="en" href="https://cesarnieto.me/" />
+    <link rel="alternate" hreflang="es" href="https://cesarnieto.me/es/" />
+    <link rel="alternate" hreflang="x-default" href="https://cesarnieto.me/" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Cesar Nieto | Software QA Engineer &amp; Test Automation Manager"
+    />
+    <meta
+      property="og:description"
+      content="Software QA engineer and test automation manager at Accenture. Selenium and Playwright frameworks, CI/CD, and Saviynt IAM testing. English and Spanish."
+    />
+    <meta property="og:url" content="https://cesarnieto.me/" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:locale:alternate" content="es_ES" />
+    <meta
+      property="og:image"
+      content="https://cesarnieto.me/images/portrait.jpg"
+    />
+    <meta property="og:image:width" content="640" />
+    <meta property="og:image:height" content="640" />
+    <meta property="og:image:alt" content="Cesar Nieto" />
+    <meta name="twitter:card" content="summary" />
+    <link rel="stylesheet" href="./assets/css/site.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Cesar Nieto",
+        "url": "https://cesarnieto.me/",
+        "jobTitle": "Software QA Engineer and Test Automation Manager",
+        "worksFor": { "@type": "Organization", "name": "Accenture" },
+        "sameAs": [
+          "https://github.com/CesarNPadilla",
+          "https://www.linkedin.com/in/cesarnpadilla"
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <nav class="nav" aria-label="Main">
+      <div class="container">
+        <a class="brand" href="#intro"
+          >Cesar Nieto<span class="visually-hidden"> · Introduction</span></a
+        >
+        <div class="nav-links">
+          <a href="#projects">Projects</a><a href="#skills">Expertise</a
+          ><a href="#experience">Experience</a><a href="#contact">Contact</a
+          ><a class="language" href="./es/" lang="es" hreflang="es">Español</a>
         </div>
       </div>
-    </section>
-    <section id="work" aria-labelledby="work-title"><div class="container">
-      <h2 id="work-title">What I work on</h2>
-<div class="grid">
-<article class="card"><h3>Automation frameworks</h3><p>I build Selenium and Playwright frameworks with reusable test code, page objects, and Cucumber/Gherkin scenarios.</p></article>
-<article class="card"><h3>Release testing and CI/CD</h3><p>I run smoke tests for every patch and regression tests for releases and migrations. I maintain pipelines in Azure Pipelines, GitLab CI/CD, and Jenkins.</p></article>
-<article class="card"><h3>Team leadership and AI-assisted testing</h3><p>I coordinate a team of 10 across three countries. I use Codex and Claude with Test Planner, Test Generator, and Test Healer agents to support the Saviynt Playwright framework.</p></article>
-</div>
-    </div></section>
-    <section id="skills" aria-labelledby="skills-title"><div class="container">
-      <h2 id="skills-title">Skills</h2>
-<div class="grid">
-<article class="card"><h3>Test automation</h3><p>Playwright · Selenium · Cucumber/Gherkin · TestNG · UFT/QTP · UiPath</p></article>
-<article class="card"><h3>Languages</h3><p>Java · JavaScript · TypeScript</p></article>
-<article class="card"><h3>CI/CD &amp; tooling</h3><p>Azure Pipelines · GitLab CI/CD · Jenkins · Git · Maven · Allure · Azure Test Plans · Jira · HP ALM · Bugzilla · Splunk · Postman · REST Assured · LoadRunner · VuGen · Salesforce</p></article>
-<article class="card"><h3>Practices</h3><p>BDD · E2E, smoke, and regression testing · keyword-driven, data-driven, and hybrid frameworks · test planning · test data validation · AI-assisted planning, generation, and maintenance for the Saviynt Playwright framework</p></article>
-<article class="card"><h3>Languages spoken</h3><p>English · Spanish</p></article>
-</div>
-    </div></section>
-    <section id="projects" aria-labelledby="projects-title"><div class="container">
-      <h2 id="projects-title">Projects</h2>
-<div class="grid">
-<article class="card"><h3>FamilySplitter</h3><p><strong>Problem:</strong> Family travel and property expenses need a clear record of who owes what.</p><p><strong>What I built:</strong> A mobile-first React and TypeScript app on Supabase with integer-cent split logic for USD and MXN. Checks run in Vitest, Playwright, and SQL.</p><p><strong>Outcome:</strong> CI runs the checks plus desktop and mobile smoke tests. The demo supports magic-link login and two-step payment confirmation.</p><a href="https://github.com/CesarNPadilla/FamilySplitter" rel="noopener">View repository</a></article>
-<article class="card"><h3>Playwright BDD framework</h3><p><strong>Problem:</strong> Starting BDD browser checks keeps re-plumbing Playwright Test, page objects, and agent workflows for each project.</p><p><strong>What I built:</strong> A TypeScript scaffold with playwright-bdd, fixtures, page objects, a preflight script, and three agent definitions: planner, generator, and healer.</p><p><strong>Outcome:</strong> The README documents Chromium validation. Firefox, WebKit, and GitLab execution are not yet validated.</p><a href="https://github.com/CesarNPadilla/automation-playwright-framework" rel="noopener">View repository</a></article>
-<article class="card"><h3>Proprietary Saviynt IAM framework</h3><p><strong>Problem:</strong> Saviynt IAM products need test automation adapted to their workflows and environments.</p><p><strong>What I built:</strong> A proprietary Java framework with Selenium, Cucumber, TestNG, Maven, and Allure, designed to be adapted to any Saviynt IAM product.</p><p><strong>Availability:</strong> The code is in a private repository. Request a demo and repository access to review the framework.</p><a href="mailto:cesar.nieto@outlook.com?subject=Saviynt+IAM+framework+demo+request&amp;body=Hi+Cesar%2C+I+would+like+a+demo+of+your+proprietary+Java%2FSelenium+framework+for+Saviynt+IAM+and+to+request+access+to+the+private+repository.">Request a demo and private repository access</a></article>
-<article class="card"><h3>Personal portfolio</h3><p><strong>Problem:</strong> Recruiters and peers need a concise bilingual view of my work.</p><p><strong>What I built:</strong> Static HTML and CSS adapted from Miniport with responsive layout, light/dark themes, and accessible navigation.</p><p><strong>Outcome:</strong> Published on GitHub Pages at cesarnieto.me with no build step.</p><a href="https://github.com/CesarNPadilla/CesarNieto.me" rel="noopener">View repository</a></article>
-</div>
-    </div></section>
-    <section id="experience" aria-labelledby="experience-title"><div class="container">
-      <h2 id="experience-title">Experience</h2>
-<div class="experience-list"><article class="card"><h3>Accenture · Manager</h3><p class="meta">Pleasanton, CA · June 2009–present<br>Manager; previously Test Automation Engineer Associate Manager.</p><p>I lead 10 QA people across the US, Mexico, and India and own automation frameworks and CI/CD delivery.</p>
-<p>For a Saviynt IAM inventory of 300+ manual test cases, I automated 60%. Reported execution effort is 10–16 person-hours with automation versus 100+ manually.</p>
-<p>I estimate a 70% cut in design and coding effort with AI-assisted agents on the Saviynt Playwright framework, and a 70% cut in regression execution effort across projects. Earlier Accenture assignments covered healthcare, insurance, and banking, including performance testing with LoadRunner/VuGen.</p></article>
-<article class="card"><h3>TCS · Test Lead</h3><p class="meta">Monterrey, Mexico · December 2008–June 2009</p><p>I led knowledge transfer and process improvement, designed functional tests and test matrices, and administered Bugzilla.</p></article>
-<article class="card"><h3>Softtek · Test Automation Engineer</h3><p class="meta">Monterrey, Mexico · July 2007–November 2008</p><p>I developed QTP automation for a banking client, managed shared object repositories, and prepared estimates, test plans, and testing strategy.</p></article></div><h3>Education and selected credentials</h3><p>B.S. in Computer Engineering · Technological Institute of San Luis Potosi · 2003–2007. ISTQB CTFL (2016), ICAgile Certified Professional (2019), and Splunk Certified Power User 6.x (2017).</p>
-    </div></section>
-    <section id="contact" aria-labelledby="contact-title"><div class="container">
-      <h2 id="contact-title">Contact</h2><p>Contact me in English or Spanish about test automation, QA leadership, or CI/CD delivery.</p>
-      <address>
-        <a href="mailto:cesar.nieto@outlook.com">cesar.nieto@outlook.com</a><br>
-        <a href="https://www.linkedin.com/in/cesarnpadilla" rel="noopener">LinkedIn</a><br>
-        <a href="https://github.com/CesarNPadilla" rel="noopener">GitHub</a>
-      </address>
-    </div></section>
-  </main>
-  <footer><div class="container">
-    <p>© Cesar Nieto</p>
-    <p>Adapted from Miniport by <a href="https://html5up.net" rel="noopener">HTML5 UP</a> · <a href="./LICENSE.txt">CC BY 3.0</a></p>
-  </div></footer>
-</body>
+    </nav>
+    <main id="main" tabindex="-1">
+      <section id="intro" aria-labelledby="intro-title">
+        <div class="container intro">
+          <picture>
+            <source srcset="./images/portrait.avif" type="image/avif" />
+            <source srcset="./images/portrait.webp" type="image/webp" />
+            <img
+              class="portrait"
+              src="./images/portrait.jpg"
+              alt="Portrait of Cesar Nieto"
+              width="640"
+              height="640"
+              fetchpriority="high"
+            />
+          </picture>
+          <div>
+            <p class="eyebrow">
+              Software QA Engineer &amp; Test Automation Manager
+            </p>
+            <h1 id="intro-title">Cesar Nieto</h1>
+            <p class="lead">
+              I build test automation that supports confident releases. My work
+              spans Selenium and Playwright frameworks, CI/CD delivery, and QA
+              team leadership.
+            </p>
+            <p class="meta">
+              Accenture · Pleasanton, CA (Pacific time) · English &amp; Spanish
+            </p>
+            <div class="actions">
+              <a class="button" href="#projects">View projects</a
+              ><a
+                class="button button-secondary"
+                href="./downloads/cesar-nieto-en.pdf"
+                download=""
+                aria-describedby="resume-note"
+                >Download résumé (PDF)</a
+              ><a class="text-action" href="mailto:cesar.nieto@outlook.com"
+                >Contact me</a
+              >
+            </div>
+            <p class="note" id="resume-note">
+              Résumé in English · Available to download
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="projects" aria-labelledby="projects-title">
+        <div class="container">
+          <h2 id="projects-title">Selected projects</h2>
+          <p class="section-intro">
+            Practical applications, reusable frameworks, and the work behind
+            them.
+          </p>
+          <div class="projects-grid">
+            <article class="project-card">
+              <p class="eyebrow project-type">
+                Web application · Public source
+              </p>
+              <h3>FamilySplitter</h3>
+              <p>
+                <strong>Problem:</strong> Family expenses need a clear record of
+                who owes what.
+              </p>
+              <p>
+                <strong>Contribution:</strong> React, TypeScript, and Supabase
+                app with integer-cent splitting for USD and MXN.
+              </p>
+              <p>
+                <strong>Outcome:</strong> CI covers Vitest, Playwright, SQL, and
+                desktop/mobile smoke tests. The demo includes magic-link login
+                and two-step payment confirmation.
+              </p>
+              <a
+                href="https://github.com/CesarNPadilla/FamilySplitter"
+                rel="noopener"
+                class="project-link"
+                >Explore FamilySplitter</a
+              >
+            </article>
+            <article class="project-card">
+              <p class="eyebrow project-type">
+                Test automation · Public source
+              </p>
+              <h3>Playwright BDD framework</h3>
+              <p>
+                <strong>Problem:</strong> Starting BDD checks often means
+                repeating tool and workflow setup.
+              </p>
+              <p>
+                <strong>Contribution:</strong> Reusable playwright-bdd scaffold
+                with fixtures, page objects, preflight, and planner, generator,
+                and healer agents.
+              </p>
+              <p>
+                <strong>Outcome:</strong> Documented Chromium validation;
+                Firefox, WebKit, and GitLab execution remain unvalidated.
+              </p>
+              <a
+                href="https://github.com/CesarNPadilla/automation-playwright-framework"
+                rel="noopener"
+                class="project-link"
+                >Explore Playwright BDD framework</a
+              >
+            </article>
+            <article class="project-card">
+              <p class="eyebrow project-type">
+                Saviynt IAM · Private repository
+              </p>
+              <h3>Proprietary Saviynt IAM framework</h3>
+              <p>
+                <strong>Problem:</strong> Saviynt IAM workflows need automation
+                adapted to their environment.
+              </p>
+              <p>
+                <strong>Contribution:</strong> Proprietary Java framework with
+                Selenium, Cucumber, TestNG, Maven, and Allure, designed for
+                Saviynt IAM products.
+              </p>
+              <p>
+                <strong>Availability:</strong> Demo and private repository
+                access available on request.
+              </p>
+              <a
+                href="mailto:cesar.nieto@outlook.com?subject=Saviynt+IAM+framework+demo+request&amp;body=Hi+Cesar%2C+I+would+like+a+demo+of+your+proprietary+Java%2FSelenium+framework+for+Saviynt+IAM+and+to+request+access+to+the+private+repository."
+                class="project-link"
+                >Request demo &amp; access</a
+              >
+            </article>
+            <article class="project-card">
+              <p class="eyebrow project-type">Portfolio · Public source</p>
+              <h3>Personal portfolio</h3>
+              <p>
+                <strong>Problem:</strong> Present my experience clearly in
+                English and Spanish.
+              </p>
+              <p>
+                <strong>Contribution:</strong> Static HTML and CSS adapted from
+                Miniport, with responsive layouts, light/dark themes, and
+                keyboard navigation.
+              </p>
+              <p>
+                <strong>Outcome:</strong> No build step; prepared for static
+                hosting at cesarnieto.me.
+              </p>
+              <a
+                href="https://github.com/CesarNPadilla/CesarNieto.me"
+                rel="noopener"
+                class="project-link"
+                >Explore Personal portfolio</a
+              >
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" aria-labelledby="skills-title">
+        <div class="container">
+          <h2 id="skills-title">Expertise &amp; tools</h2>
+          <div id="work" class="expertise-grid">
+            <article class="expertise-item">
+              <h3>Automation frameworks</h3>
+              <p>
+                I build reusable Selenium and Playwright frameworks with page
+                objects and Cucumber/Gherkin scenarios.
+              </p>
+            </article>
+            <article class="expertise-item">
+              <h3>Release testing and CI/CD</h3>
+              <p>
+                I maintain Azure Pipelines, GitLab CI/CD, and Jenkins pipelines
+                for smoke, regression, and migration testing.
+              </p>
+            </article>
+            <article class="expertise-item">
+              <h3>Team leadership and AI-assisted testing</h3>
+              <p>
+                I coordinate 10 people across three countries, using Codex,
+                Claude, and planning, generation, and maintenance agents on the
+                Saviynt Playwright framework.
+              </p>
+            </article>
+          </div>
+          <div class="tool-groups">
+            <article class="tool-group">
+              <h3>Test automation</h3>
+              <ul class="tool-list">
+                <li>Playwright</li>
+                <li>Selenium</li>
+                <li>Cucumber/Gherkin</li>
+                <li>TestNG</li>
+                <li>UFT/QTP</li>
+                <li>UiPath</li>
+              </ul>
+            </article>
+            <article class="tool-group">
+              <h3>Languages</h3>
+              <ul class="tool-list">
+                <li>Java</li>
+                <li>JavaScript</li>
+                <li>TypeScript</li>
+              </ul>
+            </article>
+            <article class="tool-group">
+              <h3>Delivery &amp; test management</h3>
+              <ul class="tool-list">
+                <li>Azure Pipelines</li>
+                <li>GitLab CI/CD</li>
+                <li>Jenkins</li>
+                <li>Git</li>
+                <li>Maven</li>
+                <li>Allure</li>
+                <li>Azure Test Plans</li>
+                <li>Jira</li>
+                <li>HP ALM</li>
+                <li>Bugzilla</li>
+              </ul>
+            </article>
+            <article class="tool-group">
+              <h3>API, performance &amp; platforms</h3>
+              <ul class="tool-list">
+                <li>Splunk</li>
+                <li>Postman</li>
+                <li>REST Assured</li>
+                <li>LoadRunner</li>
+                <li>VuGen</li>
+                <li>Salesforce</li>
+              </ul>
+            </article>
+            <article class="tool-group">
+              <h3>Practices</h3>
+              <ul class="tool-list">
+                <li>BDD</li>
+                <li>E2E, smoke, and regression testing</li>
+                <li>keyword-driven, data-driven, and hybrid frameworks</li>
+                <li>test planning</li>
+                <li>test data validation</li>
+                <li>
+                  AI-assisted planning, generation, and maintenance for the
+                  Saviynt Playwright framework
+                </li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" aria-labelledby="experience-title">
+        <div class="container">
+          <h2 id="experience-title">Experience</h2>
+          <div class="timeline">
+            <article class="career-entry">
+              <h3>Accenture · Manager</h3>
+              <p class="meta">
+                Pleasanton, CA ·
+                <time datetime="2009-06">June 2009</time>–present<br />Manager;
+                previously, Test Automation Engineer Associate Manager.
+              </p>
+
+              <ul class="achievements">
+                <li>
+                  I lead 10 QA people across the US, Mexico, and India and own
+                  automation frameworks and CI/CD delivery.
+                </li>
+                <li>
+                  For a Saviynt IAM inventory of 300+ manual test cases, I
+                  automated 60%. Reported execution effort is 10–16 person-hours
+                  with automation versus 100+ manually.
+                </li>
+                <li>
+                  I estimate a 70% cut in design and coding effort with
+                  AI-assisted agents on the Saviynt Playwright framework, and a
+                  70% cut in regression execution effort across projects.
+                  Earlier Accenture assignments covered healthcare, insurance,
+                  and banking, including performance testing with
+                  LoadRunner/VuGen.
+                </li>
+              </ul>
+            </article>
+            <article class="career-entry">
+              <h3>TCS · Test Lead</h3>
+              <p class="meta">
+                Monterrey, Mexico ·
+                <time datetime="2008-12">December 2008</time>–<time
+                  datetime="2009-06"
+                  >June 2009</time
+                >
+              </p>
+              <ul class="achievements">
+                <li>
+                  I led knowledge transfer and process improvement, designed
+                  functional tests and test matrices, and administered Bugzilla.
+                </li>
+              </ul>
+            </article>
+            <article class="career-entry">
+              <h3>Softtek · Test Automation Engineer</h3>
+              <p class="meta">
+                Monterrey, Mexico ·
+                <time datetime="2007-07">July 2007</time>–<time
+                  datetime="2008-11"
+                  >November 2008</time
+                >
+              </p>
+              <ul class="achievements">
+                <li>
+                  I developed QTP automation for a banking client, managed
+                  shared object repositories, and prepared estimates, test
+                  plans, and testing strategy.
+                </li>
+              </ul>
+            </article>
+          </div>
+          <h3 class="education-title">Education and selected credentials</h3>
+          <p>
+            B.S. in Computer Engineering · Technological Institute of San Luis
+            Potosi · 2003–2007. ISTQB CTFL (2016), ICAgile Certified
+            Professional (2019), and Splunk Certified Power User 6.x (2017).
+          </p>
+        </div>
+      </section>
+      <section id="contact" aria-labelledby="contact-title">
+        <div class="container">
+          <h2 id="contact-title">Contact</h2>
+          <p>
+            Contact me in English or Spanish about test automation, QA
+            leadership, or CI/CD delivery.
+          </p>
+          <address>
+            <a href="mailto:cesar.nieto@outlook.com">cesar.nieto@outlook.com</a
+            ><br />
+            <a href="https://www.linkedin.com/in/cesarnpadilla" rel="noopener"
+              >LinkedIn</a
+            ><br />
+            <a href="https://github.com/CesarNPadilla" rel="noopener">GitHub</a>
+          </address>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <p>© Cesar Nieto</p>
+        <p>
+          Adapted from Miniport by
+          <a href="https://html5up.net" rel="noopener">HTML5 UP</a> ·
+          <a href="./LICENSE.txt">CC BY 3.0</a>
+        </p>
+      </div>
+    </footer>
+  </body>
 </html>

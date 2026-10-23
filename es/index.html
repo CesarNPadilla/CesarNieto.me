@@ -1,109 +1,428 @@
 <!doctype html>
 <!-- Adapted from Miniport by HTML5 UP. CC BY 3.0; see LICENSE.txt. -->
 <html lang="es">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="color-scheme" content="light dark">
-  <title>Cesar Nieto | Ingeniero de QA y gerente de automatización de pruebas</title>
-    <meta name="description" content="Ingeniero de QA y gerente de automatización de pruebas en Accenture. Frameworks con Selenium y Playwright, CI/CD y pruebas de Saviynt IAM. Español e inglés.">
-    <link rel="canonical" href="https://cesarnieto.me/es/">
-    <link rel="alternate" hreflang="en" href="https://cesarnieto.me/">
-    <link rel="alternate" hreflang="es" href="https://cesarnieto.me/es/">
-    <link rel="alternate" hreflang="x-default" href="https://cesarnieto.me/">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Cesar Nieto | Ingeniero de QA y gerente de automatización de pruebas">
-    <meta property="og:description" content="Ingeniero de QA y gerente de automatización de pruebas en Accenture. Frameworks con Selenium y Playwright, CI/CD y pruebas de Saviynt IAM. Español e inglés.">
-    <meta property="og:url" content="https://cesarnieto.me/es/">
-    <meta property="og:locale" content="es_ES">
-    <meta property="og:locale:alternate" content="en_US">
-    <meta property="og:image" content="https://cesarnieto.me/images/portrait.jpg">
-    <meta property="og:image:width" content="640">
-    <meta property="og:image:height" content="640">
-    <meta property="og:image:alt" content="Cesar Nieto">
-    <meta name="twitter:card" content="summary">
-    <link rel="stylesheet" href="../assets/css/site.css">
-    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Person", "name": "Cesar Nieto", "url": "https://cesarnieto.me/", "jobTitle": "Software QA Engineer and Test Automation Manager", "worksFor": {"@type": "Organization", "name": "Accenture"}, "sameAs": ["https://github.com/CesarNPadilla", "https://www.linkedin.com/in/cesarnpadilla"]}</script>
-</head>
-<body>
-  <a class="skip" href="#main">Saltar al contenido</a>
-  <nav class="nav" aria-label="Principal">
-    <div class="container">
-      <a href="#intro">Inicio</a>
-      <a href="#work">En qué trabajo</a>
-      <a href="#skills">Habilidades</a>
-      <a href="#projects">Proyectos</a>
-      <a href="#experience">Experiencia</a>
-      <a href="#contact">Contacto</a>
-      <a class="language" href="../" lang="en" hreflang="en">English</a>
-    </div>
-  </nav>
-  <main id="main" tabindex="-1">
-    <section id="intro" aria-labelledby="intro-title">
-      <div class="container intro">
-        <picture>
-          <source srcset="../images/portrait.avif" type="image/avif">
-          <source srcset="../images/portrait.webp" type="image/webp">
-          <img class="portrait" src="../images/portrait.jpg" alt="Retrato de Cesar Nieto" width="640" height="640" fetchpriority="high">
-        </picture>
-                <div>
-          <p class="eyebrow">Ingeniero de QA y gerente de automatización de pruebas</p>
-          <h1 id="intro-title">Cesar Nieto</h1>
-          <p class="lead">Soy ingeniero de QA y gerente de automatización de pruebas en Accenture. Desarrollo frameworks con Selenium y Playwright en Java, JavaScript y TypeScript, y me encargo de los pipelines de CI/CD que los ejecutan. Vivo en Pleasanton, California, y trabajo en español e inglés.</p>
-          <p class="meta">Accenture · Gerente · Pleasanton, California (zona horaria del Pacífico)</p>
-          <div class="actions">
-            <a class="button" href="mailto:cesar.nieto@outlook.com">Contactar</a>
-            <a href="../downloads/cesar-nieto-en.pdf" download aria-describedby="resume-note">Descargar currículum (inglés)</a>
-          </div>
-          <p class="note" id="resume-note">Currículum en inglés · PDF</p>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <title>
+      Cesar Nieto | Ingeniero de QA y gerente de automatización de pruebas
+    </title>
+    <meta
+      name="description"
+      content="Ingeniero de QA y gerente de automatización de pruebas en Accenture. Frameworks con Selenium y Playwright, CI/CD y pruebas de Saviynt IAM. Español e inglés."
+    />
+    <link rel="canonical" href="https://cesarnieto.me/es/" />
+    <link rel="alternate" hreflang="en" href="https://cesarnieto.me/" />
+    <link rel="alternate" hreflang="es" href="https://cesarnieto.me/es/" />
+    <link rel="alternate" hreflang="x-default" href="https://cesarnieto.me/" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Cesar Nieto | Ingeniero de QA y gerente de automatización de pruebas"
+    />
+    <meta
+      property="og:description"
+      content="Ingeniero de QA y gerente de automatización de pruebas en Accenture. Frameworks con Selenium y Playwright, CI/CD y pruebas de Saviynt IAM. Español e inglés."
+    />
+    <meta property="og:url" content="https://cesarnieto.me/es/" />
+    <meta property="og:locale" content="es_ES" />
+    <meta property="og:locale:alternate" content="en_US" />
+    <meta
+      property="og:image"
+      content="https://cesarnieto.me/images/portrait.jpg"
+    />
+    <meta property="og:image:width" content="640" />
+    <meta property="og:image:height" content="640" />
+    <meta property="og:image:alt" content="Cesar Nieto" />
+    <meta name="twitter:card" content="summary" />
+    <link rel="stylesheet" href="../assets/css/site.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Cesar Nieto",
+        "url": "https://cesarnieto.me/",
+        "jobTitle": "Software QA Engineer and Test Automation Manager",
+        "worksFor": { "@type": "Organization", "name": "Accenture" },
+        "sameAs": [
+          "https://github.com/CesarNPadilla",
+          "https://www.linkedin.com/in/cesarnpadilla"
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Saltar al contenido</a>
+    <nav class="nav" aria-label="Principal">
+      <div class="container">
+        <a class="brand" href="#intro"
+          >Cesar Nieto<span class="visually-hidden"> · Inicio</span></a
+        >
+        <div class="nav-links">
+          <a href="#projects">Proyectos</a><a href="#skills">Perfil</a
+          ><a href="#experience">Experiencia</a><a href="#contact">Contacto</a
+          ><a class="language" href="../" lang="en" hreflang="en">English</a>
         </div>
       </div>
-    </section>
-    <section id="work" aria-labelledby="work-title"><div class="container">
-      <h2 id="work-title">En qué trabajo</h2>
-<div class="grid">
-<article class="card"><h3>Frameworks de automatización</h3><p>Desarrollo frameworks con Selenium y Playwright, código reutilizable, objetos de página y escenarios con Cucumber/Gherkin.</p></article>
-<article class="card"><h3>Pruebas de versiones y CI/CD</h3><p>Ejecuto pruebas de humo con cada parche y pruebas de regresión para versiones y migraciones. Mantengo pipelines en Azure Pipelines, GitLab CI/CD y Jenkins.</p></article>
-<article class="card"><h3>Coordinación de equipos y pruebas con IA</h3><p>Coordino a 10 personas en tres países. Uso Codex y Claude con agentes Test Planner, Test Generator y Test Healer para apoyar el framework de Playwright para Saviynt.</p></article>
-</div>
-    </div></section>
-    <section id="skills" aria-labelledby="skills-title"><div class="container">
-      <h2 id="skills-title">Habilidades</h2>
-<div class="grid">
-<article class="card"><h3>Automatización de pruebas</h3><p>Playwright · Selenium · Cucumber/Gherkin · TestNG · UFT/QTP · UiPath</p></article>
-<article class="card"><h3>Lenguajes</h3><p>Java · JavaScript · TypeScript</p></article>
-<article class="card"><h3>CI/CD y herramientas</h3><p>Azure Pipelines · GitLab CI/CD · Jenkins · Git · Maven · Allure · Azure Test Plans · Jira · HP ALM · Bugzilla · Splunk · Postman · REST Assured · LoadRunner · VuGen · Salesforce</p></article>
-<article class="card"><h3>Prácticas</h3><p>BDD · pruebas de extremo a extremo, de humo y de regresión · frameworks basados en palabras clave, datos e híbridos · planificación de pruebas · validación de datos de prueba · planificación, generación y mantenimiento con IA para el framework de Playwright para Saviynt</p></article>
-<article class="card"><h3>Idiomas</h3><p>Español · Inglés</p></article>
-</div>
-    </div></section>
-    <section id="projects" aria-labelledby="projects-title"><div class="container">
-      <h2 id="projects-title">Proyectos</h2>
-<div class="grid">
-<article class="card"><h3>FamilySplitter</h3><p><strong>Problema:</strong> Los gastos de viajes y propiedades familiares necesitan un registro claro de quién debe qué.</p><p><strong>Qué desarrollé:</strong> Una aplicación mobile-first con React, TypeScript y Supabase, con lógica de reparto en centavos para USD y MXN. Las verificaciones corren en Vitest, Playwright y SQL.</p><p><strong>Resultado:</strong> CI ejecuta las verificaciones y pruebas de humo en escritorio y móvil. La demo soporta login por enlace mágico y confirmación de pagos en dos pasos.</p><a href="https://github.com/CesarNPadilla/FamilySplitter" rel="noopener">Ver repositorio</a></article>
-<article class="card"><h3>Framework BDD con Playwright</h3><p><strong>Problema:</strong> Empezar pruebas de navegador con BDD implica volver a configurar Playwright Test, objetos de página y flujos de agentes en cada proyecto.</p><p><strong>Qué desarrollé:</strong> Un scaffold en TypeScript con playwright-bdd, fixtures, objetos de página, un script de preflight y tres definiciones de agentes: planner, generator y healer.</p><p><strong>Resultado:</strong> El README documenta validación en Chromium. Firefox, WebKit y la ejecución en GitLab aún no están validados.</p><a href="https://github.com/CesarNPadilla/automation-playwright-framework" rel="noopener">Ver repositorio</a></article>
-<article class="card"><h3>Framework propietario para Saviynt IAM</h3><p><strong>Problema:</strong> Los productos de Saviynt IAM necesitan automatización de pruebas adaptada a sus flujos y entornos.</p><p><strong>Qué desarrollé:</strong> Un framework propietario en Java con Selenium, Cucumber, TestNG, Maven y Allure, diseñado para adaptarse a cualquier producto de Saviynt IAM.</p><p><strong>Disponibilidad:</strong> El código está en un repositorio privado. Puedes solicitar una demostración y acceso al repositorio para revisar el framework.</p><a href="mailto:cesar.nieto@outlook.com?subject=Solicitud+de+demo+del+framework+Saviynt+IAM&amp;body=Hola+Cesar%2C+me+interesa+una+demostraci%C3%B3n+de+tu+framework+propietario+de+Java%2FSelenium+para+Saviynt+IAM+y+solicitar+acceso+al+repositorio+privado.">Solicitar demo y acceso al repositorio privado</a></article>
-<article class="card"><h3>Portafolio personal</h3><p><strong>Problema:</strong> Quienes revisan mi perfil necesitan conocer mi trabajo en español o inglés.</p><p><strong>Qué desarrollé:</strong> HTML y CSS estáticos adaptados de Miniport con diseño adaptable, temas claro y oscuro y navegación accesible.</p><p><strong>Resultado:</strong> Publicado en GitHub Pages en cesarnieto.me, sin paso de build.</p><a href="https://github.com/CesarNPadilla/CesarNieto.me" rel="noopener">Ver repositorio</a></article>
-</div>
-    </div></section>
-    <section id="experience" aria-labelledby="experience-title"><div class="container">
-      <h2 id="experience-title">Experiencia</h2>
-<div class="experience-list"><article class="card"><h3>Accenture · Gerente</h3><p class="meta">Pleasanton, California · Junio de 2009–actualidad<br>Gerente; antes, Test Automation Engineer Associate Manager.</p><p>Coordino a 10 personas en Estados Unidos, México e India y me encargo de los frameworks de automatización y los pipelines de CI/CD.</p><p>Automaticé el 60% de un inventario de más de 300 casos manuales de Saviynt IAM. El esfuerzo de ejecución reportado es de más de 100 horas-persona en pruebas manuales frente a 10–16 horas-persona con automatización.</p><p>En el framework de Playwright para Saviynt, estimo una reducción del 70% en el esfuerzo de diseño y programación con agentes de IA. En distintos proyectos, reporto una reducción estimada del 70% en el esfuerzo de ejecución de regresión mediante automatización.</p><p>Mis asignaciones anteriores en Accenture abarcaron salud, seguros y banca, incluidas pruebas de rendimiento con LoadRunner/VuGen.</p></article>
-<article class="card"><h3>TCS · Líder de pruebas</h3><p class="meta">Monterrey, México · Diciembre de 2008–junio de 2009</p><p>Coordiné la transferencia de conocimiento y mejoras de proceso, diseñé pruebas funcionales y matrices de prueba, y administré Bugzilla.</p></article>
-<article class="card"><h3>Softtek · Ingeniero de automatización de pruebas</h3><p class="meta">Monterrey, México · Julio de 2007–noviembre de 2008</p><p>Desarrollé automatización con QTP para un cliente bancario, administré repositorios compartidos de objetos y preparé estimaciones, planes y estrategias de prueba.</p></article></div><h3>Formación y credenciales seleccionadas</h3><p>Ingeniería en Computación · Instituto Tecnológico de San Luis Potosí · 2003–2007. ISTQB CTFL (2016), ICAgile Certified Professional (2019) y Splunk Certified Power User 6.x (2017).</p>
-    </div></section>
-    <section id="contact" aria-labelledby="contact-title"><div class="container">
-      <h2 id="contact-title">Contacto</h2><p>Puedes escribirme en español o inglés para hablar de automatización de pruebas, liderazgo de QA o CI/CD.</p>
-      <address>
-        <a href="mailto:cesar.nieto@outlook.com">cesar.nieto@outlook.com</a><br>
-        <a href="https://www.linkedin.com/in/cesarnpadilla" rel="noopener">LinkedIn</a><br>
-                <a href="https://github.com/CesarNPadilla" rel="noopener">GitHub</a>
-      </address>
-    </div></section>
-  </main>
-  <footer><div class="container">
-    <p>© Cesar Nieto</p>
-    <p>Adaptado de Miniport, de <a href="https://html5up.net" rel="noopener">HTML5 UP</a> · <a href="../LICENSE.txt">CC BY 3.0</a></p>
-  </div></footer>
-</body>
+    </nav>
+    <main id="main" tabindex="-1">
+      <section id="intro" aria-labelledby="intro-title">
+        <div class="container intro">
+          <picture>
+            <source srcset="../images/portrait.avif" type="image/avif" />
+            <source srcset="../images/portrait.webp" type="image/webp" />
+            <img
+              class="portrait"
+              src="../images/portrait.jpg"
+              alt="Retrato de Cesar Nieto"
+              width="640"
+              height="640"
+              fetchpriority="high"
+            />
+          </picture>
+          <div>
+            <p class="eyebrow">
+              Ingeniero de QA y gerente de automatización de pruebas
+            </p>
+            <h1 id="intro-title">Cesar Nieto</h1>
+            <p class="lead">
+              Desarrollo automatización de pruebas para entregar versiones con
+              confianza. Mi trabajo abarca frameworks con Selenium y Playwright,
+              CI/CD y liderazgo de equipos de QA.
+            </p>
+            <p class="meta">
+              Accenture · Pleasanton, California (hora del Pacífico) · Español e
+              inglés
+            </p>
+            <div class="actions">
+              <a class="button" href="#projects">Ver proyectos</a
+              ><a
+                class="button button-secondary"
+                href="../downloads/cesar-nieto-en.pdf"
+                download=""
+                aria-describedby="resume-note"
+                >Descargar currículum (PDF)</a
+              ><a class="text-action" href="mailto:cesar.nieto@outlook.com"
+                >Contactar</a
+              >
+            </div>
+            <p class="note" id="resume-note">
+              Currículum en inglés · Disponible para descargar
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="projects" aria-labelledby="projects-title">
+        <div class="container">
+          <h2 id="projects-title">Proyectos seleccionados</h2>
+          <p class="section-intro">
+            Aplicaciones prácticas, frameworks reutilizables y el trabajo detrás
+            de cada uno.
+          </p>
+          <div class="projects-grid">
+            <article class="project-card">
+              <p class="eyebrow project-type">
+                Aplicación web · Código público
+              </p>
+              <h3>FamilySplitter</h3>
+              <p>
+                <strong>Problema:</strong> Los gastos familiares necesitan un
+                registro claro de quién debe qué.
+              </p>
+              <p>
+                <strong>Contribución:</strong> App con React, TypeScript y
+                Supabase; reparto en centavos para USD y MXN.
+              </p>
+              <p>
+                <strong>Resultado:</strong> CI con Vitest, Playwright, SQL y
+                pruebas de humo en escritorio y móvil. La demo incluye acceso
+                por enlace mágico y confirmación de pagos en dos pasos.
+              </p>
+              <a
+                href="https://github.com/CesarNPadilla/FamilySplitter"
+                rel="noopener"
+                class="project-link"
+                >Explorar FamilySplitter</a
+              >
+            </article>
+            <article class="project-card">
+              <p class="eyebrow project-type">
+                Automatización · Código público
+              </p>
+              <h3>Framework BDD con Playwright</h3>
+              <p>
+                <strong>Problema:</strong> Iniciar pruebas BDD suele requerir
+                repetir la configuración de herramientas y flujos.
+              </p>
+              <p>
+                <strong>Contribución:</strong> Base reutilizable con
+                playwright-bdd, fixtures, objetos de página, preflight y agentes
+                planner, generator y healer.
+              </p>
+              <p>
+                <strong>Resultado:</strong> Validación documentada en Chromium;
+                Firefox, WebKit y GitLab aún no están validados.
+              </p>
+              <a
+                href="https://github.com/CesarNPadilla/automation-playwright-framework"
+                rel="noopener"
+                class="project-link"
+                >Explorar Framework BDD con Playwright</a
+              >
+            </article>
+            <article class="project-card">
+              <p class="eyebrow project-type">
+                Saviynt IAM · Repositorio privado
+              </p>
+              <h3>Framework propietario para Saviynt IAM</h3>
+              <p>
+                <strong>Problema:</strong> Los flujos de Saviynt IAM necesitan
+                automatización adaptada a su entorno.
+              </p>
+              <p>
+                <strong>Contribución:</strong> Framework propietario con Java,
+                Selenium, Cucumber, TestNG, Maven y Allure, diseñado para
+                adaptarse a productos Saviynt IAM.
+              </p>
+              <p>
+                <strong>Disponibilidad:</strong> Demostración y acceso al
+                repositorio privado disponibles bajo solicitud.
+              </p>
+              <a
+                href="mailto:cesar.nieto@outlook.com?subject=Solicitud+de+demo+del+framework+Saviynt+IAM&amp;body=Hola+Cesar%2C+me+interesa+una+demostraci%C3%B3n+de+tu+framework+propietario+de+Java%2FSelenium+para+Saviynt+IAM+y+solicitar+acceso+al+repositorio+privado."
+                class="project-link"
+                >Solicitar demo y acceso</a
+              >
+            </article>
+            <article class="project-card">
+              <p class="eyebrow project-type">Portafolio · Código público</p>
+              <h3>Portafolio personal</h3>
+              <p>
+                <strong>Problema:</strong> Presentar mi experiencia en español e
+                inglés de forma clara.
+              </p>
+              <p>
+                <strong>Contribución:</strong> HTML y CSS estáticos adaptados de
+                Miniport, con diseño adaptable, temas claro y oscuro y
+                navegación por teclado.
+              </p>
+              <p>
+                <strong>Resultado:</strong> Sin paso de compilación; preparado
+                para alojamiento estático en cesarnieto.me.
+              </p>
+              <a
+                href="https://github.com/CesarNPadilla/CesarNieto.me"
+                rel="noopener"
+                class="project-link"
+                >Explorar Portafolio personal</a
+              >
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" aria-labelledby="skills-title">
+        <div class="container">
+          <h2 id="skills-title">Especialidad y herramientas</h2>
+          <div id="work" class="expertise-grid">
+            <article class="expertise-item">
+              <h3>Frameworks de automatización</h3>
+              <p>
+                Desarrollo frameworks reutilizables con Selenium, Playwright,
+                objetos de página y escenarios Cucumber/Gherkin.
+              </p>
+            </article>
+            <article class="expertise-item">
+              <h3>Pruebas de versiones y CI/CD</h3>
+              <p>
+                Mantengo pipelines en Azure Pipelines, GitLab CI/CD y Jenkins
+                para pruebas de humo, regresión y migraciones.
+              </p>
+            </article>
+            <article class="expertise-item">
+              <h3>Coordinación de equipos y pruebas con IA</h3>
+              <p>
+                Coordino a 10 personas en tres países. Uso Codex, Claude y
+                agentes de planificación, generación y mantenimiento en el
+                framework de Playwright para Saviynt.
+              </p>
+            </article>
+          </div>
+          <div class="tool-groups">
+            <article class="tool-group">
+              <h3>Automatización de pruebas</h3>
+              <ul class="tool-list">
+                <li>Playwright</li>
+                <li>Selenium</li>
+                <li>Cucumber/Gherkin</li>
+                <li>TestNG</li>
+                <li>UFT/QTP</li>
+                <li>UiPath</li>
+              </ul>
+            </article>
+            <article class="tool-group">
+              <h3>Lenguajes</h3>
+              <ul class="tool-list">
+                <li>Java</li>
+                <li>JavaScript</li>
+                <li>TypeScript</li>
+              </ul>
+            </article>
+            <article class="tool-group">
+              <h3>Entrega y gestión de pruebas</h3>
+              <ul class="tool-list">
+                <li>Azure Pipelines</li>
+                <li>GitLab CI/CD</li>
+                <li>Jenkins</li>
+                <li>Git</li>
+                <li>Maven</li>
+                <li>Allure</li>
+                <li>Azure Test Plans</li>
+                <li>Jira</li>
+                <li>HP ALM</li>
+                <li>Bugzilla</li>
+              </ul>
+            </article>
+            <article class="tool-group">
+              <h3>API, rendimiento y plataformas</h3>
+              <ul class="tool-list">
+                <li>Splunk</li>
+                <li>Postman</li>
+                <li>REST Assured</li>
+                <li>LoadRunner</li>
+                <li>VuGen</li>
+                <li>Salesforce</li>
+              </ul>
+            </article>
+            <article class="tool-group">
+              <h3>Prácticas</h3>
+              <ul class="tool-list">
+                <li>BDD</li>
+                <li>pruebas de extremo a extremo, de humo y de regresión</li>
+                <li>frameworks basados en palabras clave, datos e híbridos</li>
+                <li>planificación de pruebas</li>
+                <li>validación de datos de prueba</li>
+                <li>
+                  planificación, generación y mantenimiento con IA para el
+                  framework de Playwright para Saviynt
+                </li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" aria-labelledby="experience-title">
+        <div class="container">
+          <h2 id="experience-title">Experiencia</h2>
+          <div class="timeline">
+            <article class="career-entry">
+              <h3>Accenture · Gerente</h3>
+              <p class="meta">
+                Pleasanton, California ·
+                <time datetime="2009-06">Junio de 2009</time
+                >–actualidad<br />Gerente; antes, Test Automation Engineer
+                Associate Manager.
+              </p>
+              <ul class="achievements">
+                <li>
+                  Coordino a 10 personas en Estados Unidos, México e India y me
+                  encargo de los frameworks de automatización y los pipelines de
+                  CI/CD.
+                </li>
+                <li>
+                  Automaticé el 60% de un inventario de más de 300 casos
+                  manuales de Saviynt IAM. El esfuerzo de ejecución reportado es
+                  de más de 100 horas-persona en pruebas manuales frente a 10–16
+                  horas-persona con automatización.
+                </li>
+                <li>
+                  En el framework de Playwright para Saviynt, estimo una
+                  reducción del 70% en el esfuerzo de diseño y programación con
+                  agentes de IA. En distintos proyectos, reporto una reducción
+                  estimada del 70% en el esfuerzo de ejecución de regresión
+                  mediante automatización.
+                </li>
+                <li>
+                  Mis asignaciones anteriores en Accenture abarcaron salud,
+                  seguros y banca, incluidas pruebas de rendimiento con
+                  LoadRunner/VuGen.
+                </li>
+              </ul>
+            </article>
+            <article class="career-entry">
+              <h3>TCS · Líder de pruebas</h3>
+              <p class="meta">
+                Monterrey, México ·
+                <time datetime="2008-12">Diciembre de 2008</time>–<time
+                  datetime="2009-06"
+                  >junio de 2009</time
+                >
+              </p>
+              <ul class="achievements">
+                <li>
+                  Coordiné la transferencia de conocimiento y mejoras de
+                  proceso, diseñé pruebas funcionales y matrices de prueba, y
+                  administré Bugzilla.
+                </li>
+              </ul>
+            </article>
+            <article class="career-entry">
+              <h3>Softtek · Ingeniero de automatización de pruebas</h3>
+              <p class="meta">
+                Monterrey, México ·
+                <time datetime="2007-07">Julio de 2007</time>–<time
+                  datetime="2008-11"
+                  >noviembre de 2008</time
+                >
+              </p>
+              <ul class="achievements">
+                <li>
+                  Desarrollé automatización con QTP para un cliente bancario,
+                  administré repositorios compartidos de objetos y preparé
+                  estimaciones, planes y estrategias de prueba.
+                </li>
+              </ul>
+            </article>
+          </div>
+          <h3 class="education-title">
+            Formación y credenciales seleccionadas
+          </h3>
+          <p>
+            Ingeniería en Computación · Instituto Tecnológico de San Luis Potosí
+            · 2003–2007. ISTQB CTFL (2016), ICAgile Certified Professional
+            (2019) y Splunk Certified Power User 6.x (2017).
+          </p>
+        </div>
+      </section>
+      <section id="contact" aria-labelledby="contact-title">
+        <div class="container">
+          <h2 id="contact-title">Contacto</h2>
+          <p>
+            Puedes escribirme en español o inglés para hablar de automatización
+            de pruebas, liderazgo de QA o CI/CD.
+          </p>
+          <address>
+            <a href="mailto:cesar.nieto@outlook.com">cesar.nieto@outlook.com</a
+            ><br />
+            <a href="https://www.linkedin.com/in/cesarnpadilla" rel="noopener"
+              >LinkedIn</a
+            ><br />
+            <a href="https://github.com/CesarNPadilla" rel="noopener">GitHub</a>
+          </address>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <p>© Cesar Nieto</p>
+        <p>
+          Adaptado de Miniport, de
+          <a href="https://html5up.net" rel="noopener">HTML5 UP</a> ·
+          <a href="../LICENSE.txt">CC BY 3.0</a>
+        </p>
+      </div>
+    </footer>
+  </body>
 </html>
