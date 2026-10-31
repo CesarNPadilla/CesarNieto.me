@@ -1,0 +1,171 @@
+{
+  "fetchedAt": "2026-10-26T14:39:59.461362+00:00",
+  "projects": [
+    {
+      "slug": "FamilySplitter",
+      "pushedAt": "2026-10-06T22:06:54Z",
+      "archived": false,
+      "stars": 0,
+      "forks": 0,
+      "runs": [
+        {
+          "name": "CI",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/CesarNPadilla/FamilySplitter/actions/runs/37538487363",
+          "at": "2026-10-06T22:08:28Z",
+          "sha": "f2640331bf84664e40b422d12c80d203ae7e30ae"
+        },
+        {
+          "name": "Deploy GitHub Pages",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/CesarNPadilla/FamilySplitter/actions/runs/37538487276",
+          "at": "2026-10-06T22:11:30Z",
+          "sha": "f2640331bf84664e40b422d12c80d203ae7e30ae"
+        },
+        {
+          "name": "CI",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/CesarNPadilla/FamilySplitter/actions/runs/37538453725",
+          "at": "2026-10-06T22:07:41Z",
+          "sha": "630061df7a2ea816893128fd49b65f138dcbf4e3"
+        },
+        {
+          "name": "Deploy GitHub Pages",
+          "status": "completed",
+          "conclusion": "failure",
+          "url": "https://github.com/CesarNPadilla/FamilySplitter/actions/runs/37538453690",
+          "at": "2026-10-06T22:08:33Z",
+          "sha": "630061df7a2ea816893128fd49b65f138dcbf4e3"
+        },
+        {
+          "name": "Deploy GitHub Pages",
+          "status": "completed",
+          "conclusion": "skipped",
+          "url": "https://github.com/CesarNPadilla/FamilySplitter/actions/runs/37538372176",
+          "at": "2026-10-06T22:05:50Z",
+          "sha": "b78e738b7bf6fa5eaeaf9c25c1869cfd5bc8c63a"
+        },
+        {
+          "name": "CI",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/CesarNPadilla/FamilySplitter/actions/runs/37538372195",
+          "at": "2026-10-06T22:07:32Z",
+          "sha": "b78e738b7bf6fa5eaeaf9c25c1869cfd5bc8c63a"
+        }
+      ],
+      "release": null
+    },
+    {
+      "slug": "automation-playwright-framework",
+      "pushedAt": "2026-10-15T22:07:54Z",
+      "archived": false,
+      "stars": 0,
+      "forks": 0,
+      "runs": [],
+      "release": null
+    },
+    {
+      "slug": "agentic-investing",
+      "pushedAt": "2026-10-12T15:11:09Z",
+      "archived": false,
+      "stars": 0,
+      "forks": 0,
+      "runs": [],
+      "release": null
+    },
+    {
+      "slug": "CesarNieto.me",
+      "pushedAt": "2026-10-23T20:14:58Z",
+      "archived": false,
+      "stars": 0,
+      "forks": 0,
+      "runs": [
+        {
+          "name": "pages build and deployment",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/CesarNPadilla/CesarNieto.me/actions/runs/40017741755",
+          "at": "2026-10-23T20:15:27Z",
+          "sha": "b71efacaa18c018b00b7d2d208e920c62476366f"
+        },
+        {
+          "name": "pages build and deployment",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/CesarNPadilla/CesarNieto.me/actions/runs/40005722790",
+          "at": "2026-10-23T18:44:30Z",
+          "sha": "49fb0d467f723d899239c4b04113378a1339aa6c"
+        },
+        {
+          "name": "pages build and deployment",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/CesarNPadilla/CesarNieto.me/actions/runs/40005373947",
+          "at": "2026-10-23T18:42:01Z",
+          "sha": "d2676fa5d2e0b3edf627f05791782610631368e3"
+        },
+        {
+          "name": "pages build and deployment",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/CesarNPadilla/CesarNieto.me/actions/runs/39535352703",
+          "at": "2026-10-21T02:52:39Z",
+          "sha": "e4afe226aefb002f43d9595a2744d79a4c40ed06"
+        },
+        {
+          "name": "pages build and deployment",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/CesarNPadilla/CesarNieto.me/actions/runs/39485717604",
+          "at": "2026-10-20T19:42:49Z",
+          "sha": "863265588a866327d6e98a1d180aad6039072859"
+        },
+        {
+          "name": "pages build and deployment",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/CesarNPadilla/CesarNieto.me/actions/runs/39160054495",
+          "at": "2026-10-18T19:43:44Z",
+          "sha": "1ea98a4f334988343ed89ef1b449d4d071d17b30"
+        },
+        {
+          "name": "pages build and deployment",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/CesarNPadilla/CesarNieto.me/actions/runs/38816450089",
+          "at": "2026-10-15T22:21:06Z",
+          "sha": "88e2d89f8924b2b736b96c106a56c845486f66c4"
+        },
+        {
+          "name": "pages build and deployment",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/CesarNPadilla/CesarNieto.me/actions/runs/38815809208",
+          "at": "2026-10-15T22:15:34Z",
+          "sha": "8664c9f60747532ac9c0aa13ee1a247616c90755"
+        },
+        {
+          "name": "pages build and deployment",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/CesarNPadilla/CesarNieto.me/actions/runs/38578860438",
+          "at": "2026-10-14T14:16:20Z",
+          "sha": "84db0a1035ac44407b22e5356f52e9cfe61d7ed7"
+        },
+        {
+          "name": "pages build and deployment",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/CesarNPadilla/CesarNieto.me/actions/runs/38578305513",
+          "at": "2026-10-14T14:12:29Z",
+          "sha": "57cd2b0404bd38facf22d79327b06809c6c29c00"
+        }
+      ],
+      "release": null
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+[
+  {
+    "slug": "FamilySplitter",
+    "name": "FamilySplitter",
+    "technologies": [
+      "React",
+      "TypeScript",
+      "Supabase",
+      "Vitest",
+      "Playwright"
+    ],
+    "summary": {
+      "en": "Shared family travel and property expenses.",
+      "es": "Gastos compartidos de viajes y propiedades familiares."
+    },
+    "stage": {
+      "en": "Deployment preparation",
+      "es": "Preparación del despliegue"
+    },
+    "stageSource": "README",
+    "demo": null,
+    "next": {
+      "en": "Not yet specified by owner",
+      "es": "Aún no especificado por el propietario"
+    }
+  },
+  {
+    "slug": "automation-playwright-framework",
+    "name": "Playwright BDD framework",
+    "technologies": [
+      "TypeScript",
+      "Playwright",
+      "playwright-bdd"
+    ],
+    "summary": {
+      "en": "A reusable scaffold for behavior-driven browser testing.",
+      "es": "Una base reutilizable para pruebas de navegador guiadas por comportamiento."
+    },
+    "stage": {
+      "en": "Not specified",
+      "es": "Sin especificar"
+    },
+    "stageSource": null,
+    "demo": null,
+    "next": {
+      "en": "Not yet specified by owner",
+      "es": "Aún no especificado por el propietario"
+    }
+  },
+  {
+    "slug": "agentic-investing",
+    "name": "Agentic Investing Lab",
+    "technologies": [
+      "Python"
+    ],
+    "summary": {
+      "en": "Research, backtesting, and paper simulation. No live order execution.",
+      "es": "Investigación, backtesting y simulación. Sin ejecución de órdenes reales."
+    },
+    "stage": {
+      "en": "Not specified",
+      "es": "Sin especificar"
+    },
+    "stageSource": null,
+    "demo": null,
+    "next": {
+      "en": "Not yet specified by owner",
+      "es": "Aún no especificado por el propietario"
+    }
+  },
+  {
+    "slug": "CesarNieto.me",
+    "name": "Personal portfolio",
+    "technologies": [
+      "HTML",
+      "CSS"
+    ],
+    "summary": {
+      "en": "My bilingual software QA and test automation portfolio.",
+      "es": "Mi portafolio bilingüe de QA y automatización de pruebas."
+    },
+    "stage": {
+      "en": "Not specified",
+      "es": "Sin especificar"
+    },
+    "stageSource": null,
+    "demo": "https://cesarnieto.me/",
+    "next": {
+      "en": "Not yet specified by owner",
+      "es": "Aún no especificado por el propietario"
+    }
+  }
+]
