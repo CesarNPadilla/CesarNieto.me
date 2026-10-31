@@ -2,3 +2,7 @@
 /preview-*.png
 /tmp/
 /.agents/
+
+# Branding assets published with the website
+!/assets/branding/
+!/assets/branding/**
